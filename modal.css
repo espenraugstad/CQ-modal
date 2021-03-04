@@ -1,0 +1,21 @@
+#toc{
+    background: rgb(118, 123, 130);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#tocHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tocHeader>h2{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+#tocClose{
+    cursor: pointer;
+}
